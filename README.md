@@ -34,3 +34,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Retrieving Data
+
+Remember that we are using mock data that we saved as a JSON object. This is a great way to test your code. In practice, you'll want to put in your `axios` or `fetch` calls in those files to pull in data externally.
+
+## Favicon
+
+Your Next.js project comes with a `favicon.ico` that is the Vercel logo. This is the little icon you see at on the tab on your browser. If you want a custom one, you just need to pull in the image you want into `/app` and rename it to `favicon.ico` and obviously delete the original one.
+
+## Images
+
+All of your images should be in your `/public` folder. I make an `/images` folder inside of there for organizational purposes.

@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* YOU NEVER NEED TO ADD ANYTHING ELSE TO THIS FILE */
+/* BUT */
+/* IF YOU NOTICE YOU'RE USING THE SAME CLASSES REPEATEDLY YOU CAN MAKE A CUSTOM CLASS LIKE THIS: */
+
+@layer components {
+  .bank-btn {
+    @apply bg-bank_green hover:bg-bank_green/30 border-white text-white rounded-full;
+  }
+}

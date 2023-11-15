@@ -1,3 +1,5 @@
+// I PUT THIS FILE GLOBALLY IN /app BECAUSE I WANT THE SAME LOADER TO BE USED ACROSS THE ENTIRE SITE
+
 import { MoonLoader } from "react-spinners";
 
 function Loading() {

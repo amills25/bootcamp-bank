@@ -7,6 +7,8 @@ function Navbar() {
       <Link href="/about" className="text-bank_green">
         About Us
       </Link>
+
+      {/* Your logo is the Home button! */}
       <Link href="/">
         <Image
           src="/images/bootcamp_bank.png"
@@ -15,6 +17,7 @@ function Navbar() {
           width={100}
         />
       </Link>
+
       <Link href="/accounts" className="text-bank_green">
         Accounts
       </Link>
